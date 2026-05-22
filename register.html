@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Register</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg sticky-top bg-success">
+         <a class="navbar-brand text-white me-5 ms-5" href="#Beranda">
+                FitSnap
+            </a>
+            <img src="assets/logo.jpg" class="rounded-circle jeki-img me-5" alt="foto">
+            <div class="container">
+                <div class="navbar navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white me-4 ms-2" href="#Beranda">Beranda</a>
+                    <a class="nav-link text-white me-4 ms-2" href="#TentangKami">Tentang Kami</a>
+                    <a class="nav-link text-white me-4 ms-2" href="#LayananKami">Layanan Kami</a>
+                    <a class="nav-link text-white me-4 ms-2" href="#KategoriBMI">Kategori BMI</a>
+                    <a class="nav-link text-white me-4 ms-2" href="#Kontak">Kontak</a>
+                    <a class="nav-link text-white me-4 ms-2" href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+     </nav>
+
+     <section class="background-size" style="background-color: chartreuse; min-height: 100vh;">
+        <div class="">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card p-4 shadow mt-5">
+                        <div class="text-center">
+                            <h5>Register</h5>
+                            <img src="assets/logo.jpg" class="rounded-circle logo-img my-3">
+                        <form onsubmit="return register(event)">
+                            
+                            <br>
+                            <input type="text" id="nama" placeholder="Username">
+                            <br>
+                            <br> 
+
+                            <input type="email" id="email" placeholder="Gmail">
+                            <br>
+                            <br>
+
+                            <input type="password" id="password" placeholder="Password">
+                            <br>
+                            <br>
+                        
+
+                        <button type="submit" class="bg-secondary">Register</button>
+                           <br>
+                           <br>
+                        </form>
+
+                           <a href="login.html">Sudah punya akun?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <footer class="bg-success text-white py-3">
+        <div class="container text-center">
+            <p>&copy; UKK 2026 - Rayhan Raditya Ardan</p>
+            <p>SMK Dinamika Pembangunan 2 Jakarta</p>
+        </div>
+    </footer>
+
+    <script src="js/register.js"></script>
+
+</body>
+</html>
